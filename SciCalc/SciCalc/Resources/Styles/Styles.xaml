@@ -27,8 +27,8 @@
         <Setter Property="FontFamily" Value="RegularFont" />
         <Setter Property="TextColor" Value="White" />
         <Setter Property="BackgroundColor" Value="#202731" />
-        <Setter Property="BoderWidth" Value="0" />
-        <Setter Property="BordedColor" Value="{StaticResource BorderColor}" />
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="BorderColor" Value="{StaticResource BorderColor}" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="CornerRadius" Value="0" />
@@ -42,8 +42,8 @@
         <Setter Property="FontFamily" Value="RegularFont" />
         <Setter Property="TextColor" Value="Black" />
         <Setter Property="BackgroundColor" Value="#EFBB31" />
-        <Setter Property="BoderWidth" Value="0" />
-        <Setter Property="BordedColor" Value="{StaticResource BordedColor}" />
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="BorderColor" Value="{StaticResource BorderColor}" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="CornerRadius" Value="0" />
@@ -58,8 +58,8 @@
         <Setter Property="FontFamily" Value="RegularFont" />
         <Setter Property="TextColor" Value="White" />
         <Setter Property="BackgroundColor" Value="#2c3240" />
-        <Setter Property="BoderWidth" Value="1" />
-        <Setter Property="BordedColor" Value="{StaticResource BordedColor}" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BorderColor" Value="{StaticResource BorderColor}" />
         <Setter Property="VerticalOptions" Value="Fill" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Setter Property="CornerRadius" Value="6" />
