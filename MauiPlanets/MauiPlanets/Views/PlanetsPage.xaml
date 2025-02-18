@@ -66,16 +66,16 @@
 
             </VerticalStackLayout>
         </Grid>
-        
+
         <!--Main Content-->
         <Grid
             x:Name="MainContentGrid"
             Padding="24,52,24,0"
             IgnoreSafeArea="{OnPlatform Android= False, iOS=True}"
             BackgroundColor="{StaticResource PageBackgroundColor}"
-            ColumnDefinitions="Auto, *"
-            RowDefinitions="Auto">
-            
+            ColumnDefinitions="*, Auto"
+            RowDefinitions="Auto,*">
+
             <!--Header Text-->
             <VerticalStackLayout
                 Spacing="4"
@@ -83,16 +83,16 @@
                 Grid.Column="0"
                 VerticalOptions="Center">
 
-                <Label
+                <Label 
                     Style="{StaticResource PageHeaderStyle}"
-                    Text="Lets Explore"/>
+                    Text="Let's Explore"/>
 
-                <Label
+                <Label 
                     Style="{StaticResource PageHeaderSubtitleStyle}"
                     Text="The milky way galaxy" />
 
             </VerticalStackLayout>
-            
+
             <!--Profile pic-->
             <Border
                 WidthRequest="56"
@@ -119,16 +119,16 @@
                     HeightRequest="50"
                     Source="profilepic.jpeg">
                     <Image.Clip>
-                        <EllipseGeometry
+                        <EllipseGeometry 
                             Center="25,25"
                             RadiusX="25"
                             RadiusY="25" />
                     </Image.Clip>
-                    
+
                 </Image>
-                
+
             </Border>
-            
+
             <!--Main Content ScrollView-->
             <ScrollView
                 Grid.Row="1"
@@ -140,7 +140,7 @@
 
                 <VerticalStackLayout
                     Spacing="12">
-                    
+
                     <!--Search Box-->
                     <Border
                         Padding="12,4"
@@ -159,14 +159,14 @@
                             ColumnDefinitions="Auto,*"
                             ColumnSpacing="16">
 
-                            <Image
+                            <Image 
                                 WidthRequest="18"
                                 HeightRequest="18"
                                 Source="imgsearch.png"
                                 Grid.Column="0"
-                                VerticalOptions="Center"/>
+                                VerticalOptions="Center" />
 
-                            <Label
+                            <Label 
                                 Text="Search for your favorite planet"
                                 Grid.Column="1"
                                 VerticalOptions="Center"
@@ -174,7 +174,7 @@
                                 Style="{StaticResource MenuLabelStyle}"/>
 
                         </Grid>
-                        
+
                     </Border>
 
                     <Label
@@ -182,7 +182,7 @@
                         Margin="0,12,0,0">
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="Most Popular    "/>
+                                <Span Text="Most Popular   "/>
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
@@ -194,7 +194,7 @@
                         SelectionChanged="Planets_SelectionChanged">
 
                         <CollectionView.ItemsLayout>
-                            <LinearItemsLayout
+                            <LinearItemsLayout 
                                 Orientation="Horizontal"
                                 ItemSpacing="16"/>
                         </CollectionView.ItemsLayout>
@@ -239,9 +239,10 @@
                                 </Border>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-                        
+
                     </CollectionView>
 
+                    <!--More Section-->
                     <Label
                         Style="{StaticResource PageSubHeaderStyle}"
                         Margin="0,12,0,0">
@@ -283,7 +284,7 @@
                                         RowDefinitions="*,Auto,Auto"
                                         RowSpacing="4">
 
-                                        <Image
+                                        <Image 
                                             Grid.Row="0"
                                             Source="{Binding HeroImage}"
                                             Rotation="-30"
@@ -300,13 +301,11 @@
                                 </Border>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
-                        
                     </CollectionView>
-                    
                 </VerticalStackLayout>
-                
             </ScrollView>
 
+            <!--Bottom Tab bar-->
             <Border
                 Padding="16,0"
                 BackgroundColor="#393965"
@@ -321,12 +320,14 @@
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="45" />
                 </Border.StrokeShape>
+
                 <Grid
                     HorizontalOptions="Fill"
                     VerticalOptions="Center"
                     RowDefinitions="Auto,Auto"
                     ColumnDefinitions="*,*,*"
                     RowSpacing="6">
+
                     <Image 
                         WidthRequest="30"
                         HeightRequest="30"
@@ -340,6 +341,7 @@
                         Grid.Column="0"
                         HorizontalOptions="Center"
                         Style="{StaticResource MenuLabelStyle}"/>
+
                     <Image 
                         WidthRequest="30"
                         HeightRequest="30"
@@ -353,6 +355,7 @@
                         Grid.Column="1"
                         HorizontalOptions="Center"
                         Style="{StaticResource MenuLabelStyle}"/>
+
                     <Image 
                         WidthRequest="30"
                         HeightRequest="30"
@@ -366,9 +369,11 @@
                         Grid.Column="2"
                         HorizontalOptions="Center"
                         Style="{StaticResource MenuLabelStyle}"/>
+
                 </Grid>
             </Border>
 
         </Grid>
+
     </Grid>
 </ContentPage>
