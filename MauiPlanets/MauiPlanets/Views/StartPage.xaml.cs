@@ -27,11 +27,11 @@ public partial class StartPage : ContentPage
         parentAnimation.Add(0.5, 0.7, new Animation(v => imgSaturn.Opacity = v, 0, 1, Easing.CubicIn));
         parentAnimation.Add(0.6, 0.8, new Animation(v => imgUranus.Opacity = v, 0, 1, Easing.CubicIn));
         parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
-        parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
-        parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
-        parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
-        parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
-        parentAnimation.Add(0.7, 0.9, new Animation(v => imgNeptune.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.7, 0.9, new Animation(v => imgPluto.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.7, 0.9, new Animation(v => imgCeres.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.7, 0.9, new Animation(v => imgHaumea.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.7, 0.9, new Animation(v => imgMakeMake.Opacity = v, 0, 1, Easing.CubicIn));
+        parentAnimation.Add(0.7, 0.9, new Animation(v => imgEris.Opacity = v, 0, 1, Easing.CubicIn));
 
 
         //intro box

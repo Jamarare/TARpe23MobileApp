@@ -161,7 +161,7 @@ namespace Services
 
             new()
             {
-                Name = "Earth",
+                Name = "Pluto",
                 Subtitle = "The cradle of life",
                 HeroImage = "earth.png",
                 Description = "The Earth is the only planet known where life exists. Almost 1.5 million species of animals and plants have been discovered so far, and many more have yet to be found. While other planets may have small amounts of ice or steam, the Earth is 2/3 water. Earth has perfect conditions for a breathable atmosphere. ",
@@ -176,7 +176,7 @@ namespace Services
             },
             new()
             {
-                Name = "Mars",
+                Name = "Ceres",
                 Subtitle = "The red beauty",
                 HeroImage = "mars.png",
                 Description = "No planet has sparked the imaginations of humans as much " +
@@ -196,7 +196,7 @@ namespace Services
             },
             new()
             {
-                Name = "Jupiter",
+                Name = "Haumea",
                 Subtitle = "The gas giant",
                 HeroImage = "jupiter.png",
                 Description = "Jupiter is the fifth planet from the Sun and the " +
@@ -216,7 +216,7 @@ namespace Services
             },
             new()
             {
-                Name = "Saturn",
+                Name = "MakeMake",
                 Subtitle = "The ring planet",
                 HeroImage = "saturn.png",
                 Description = "Saturn is the sixth planet from the Sun and " +
@@ -237,7 +237,7 @@ namespace Services
             },
             new()
             {
-                Name = "Uranus",
+                Name = "Eris",
                 Subtitle = "The Herschel planet",
                 HeroImage = "uranus.png",
                 Description = "Uranus is the seventh planet from the Sun. " +
