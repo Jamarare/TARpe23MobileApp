@@ -1,8 +1,6 @@
-﻿using Data;
-using Microsoft.Extensions.Logging;
-using ViewModels;
+﻿using Microsoft.Extensions.Logging;
 
-namespace MauiCRUD
+namespace FruitVegBasket
 {
     public static class MauiProgram
     {
@@ -16,13 +14,11 @@ namespace MauiCRUD
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+            .UseMauiCommunityToolkit();
 
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddSingleton<DatabaseContext>();
-            builder.Services.AddSingleton<ProductsViewModel>();
-            builder.Services.AddSingleton<MainPage>();
 
             return builder.Build();
         }
