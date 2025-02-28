@@ -1,10 +1,9 @@
-﻿namespace FruitVegBasket
+﻿namespace FruitVegBasket;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
-    {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
-    }
+	public AppShell()
+	{
+		InitializeComponent();
+	}
 }
