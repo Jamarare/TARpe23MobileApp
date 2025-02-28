@@ -4,6 +4,14 @@ namespace FruitVegBasket.Models
 {
     public class Category
     {
+        public Category(short id, string name, short parentId, string image, string credit)
+        {
+            Id = id;
+            Name = name;
+            Image = image;
+            ParentId = parentId;
+        }
+
         public short Id { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
