@@ -304,6 +304,8 @@
                     </CollectionView>
                 </VerticalStackLayout>
             </ScrollView>
+            
+            
 
             <!--Bottom Tab bar-->
             <Border

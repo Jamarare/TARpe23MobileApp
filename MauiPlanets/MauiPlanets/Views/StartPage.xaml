@@ -104,7 +104,7 @@
         <Image 
             x:Name="imgPluto"
             Opacity="0"
-            Source="neptune.png"
+            Source="pluto.png"
             VerticalOptions="Start"
             HorizontalOptions="End"
             TranslationX="100"
@@ -115,7 +115,7 @@
         <Image 
             x:Name="imgCeres"
             Opacity="0"
-            Source="neptune.png"
+            Source="ceres.png"
             VerticalOptions="Start"
             HorizontalOptions="End"
             TranslationX="100"
@@ -126,7 +126,7 @@
         <Image 
             x:Name="imgHaumea"
             Opacity="0"
-            Source="neptune.png"
+            Source="haumea.png"
             VerticalOptions="Start"
             HorizontalOptions="End"
             TranslationX="100"
@@ -137,7 +137,7 @@
         <Image 
             x:Name="imgMakeMake"
             Opacity="0"
-            Source="neptune.png"
+            Source="makemake.png"
             VerticalOptions="Start"
             HorizontalOptions="End"
             TranslationX="100"
@@ -148,7 +148,7 @@
         <Image 
             x:Name="imgEris"
             Opacity="0"
-            Source="neptune.png"
+            Source="eris.png"
             VerticalOptions="Start"
             HorizontalOptions="End"
             TranslationX="100"
